@@ -113,9 +113,9 @@
             // 
             // dgvCustomers
             // 
-            this.dgvCustomers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                                                                          | System.Windows.Forms.AnchorStyles.Left)
-                                                                          | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvCustomers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvCustomers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCustomers.Location = new System.Drawing.Point(8, 140);
             this.dgvCustomers.Name = "dgvCustomers";
@@ -157,6 +157,7 @@
             this.btnCustomerAdd.TabIndex = 6;
             this.btnCustomerAdd.Text = "Add";
             this.btnCustomerAdd.UseVisualStyleBackColor = true;
+            this.btnCustomerAdd.Click += new System.EventHandler(this.btnCustomerAdd_Click);
             // 
             // txtCustomerEmail
             // 
@@ -229,9 +230,9 @@
             // 
             // dgvProducts
             // 
-            this.dgvProducts.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                                                                           | System.Windows.Forms.AnchorStyles.Left)
-                                                                           | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvProducts.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvProducts.Location = new System.Drawing.Point(8, 140);
             this.dgvProducts.Name = "dgvProducts";
@@ -318,7 +319,7 @@
             this.lblProductId.AutoSize = true;
             this.lblProductId.Location = new System.Drawing.Point(15, 21);
             this.lblProductId.Name = "lblProductId";
-            this.lblProductId.Size = new System.Drawing.Size(58, 13);
+            this.lblProductId.Size = new System.Drawing.Size(61, 13);
             this.lblProductId.TabIndex = 0;
             this.lblProductId.Text = "Product ID:";
             // 
@@ -349,9 +350,9 @@
             // 
             // dgvOrders
             // 
-            this.dgvOrders.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                                                                         | System.Windows.Forms.AnchorStyles.Left)
-                                                                         | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvOrders.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvOrders.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvOrders.Location = new System.Drawing.Point(8, 180);
             this.dgvOrders.Name = "dgvOrders";
@@ -475,7 +476,7 @@
             this.lblOrderId.AutoSize = true;
             this.lblOrderId.Location = new System.Drawing.Point(15, 10);
             this.lblOrderId.Name = "lblOrderId";
-            this.lblOrderId.Size = new System.Drawing.Size(48, 13);
+            this.lblOrderId.Size = new System.Drawing.Size(50, 13);
             this.lblOrderId.TabIndex = 0;
             this.lblOrderId.Text = "Order ID:";
             // 

@@ -16,5 +16,11 @@ namespace WinFormsProduct
         {
             InitializeComponent();
         }
+
+        private void btnCustomerAdd_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("Customer Added");
+
+        }
     }
 }
